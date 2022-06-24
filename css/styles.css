@@ -1,0 +1,118 @@
+Body {
+  margin:0;
+  text-align:center;
+  background-color: #E0E8FF;
+}
+
+.order-slip {
+  background-color: white;
+  margin: 30px 400px 30px 400px;
+  border-radius: 10%;
+  height:30em;
+  width: 20em;
+  position: relative;
+}
+.image-div{
+  border-top-left-radius:10%;
+  border-top-right-radius:10%;
+}
+
+.image{
+  width: 100%;
+  border-top-left-radius:10%;
+  border-top-right-radius:10%;
+}
+
+.order-summary{
+  border-bottom:10px;
+}
+
+h4{
+  margin-bottom:0;
+}
+.cost {
+  font-size: 1em;
+  margin-top:5px;
+  margin-bottom:0;
+}
+
+.plan {
+  background-color: #F5F7FF;
+  display:inline-block;
+  width: 85%;
+  height:12%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.notes{
+  position: absolute;
+  left:25px;
+  top:20px;
+}
+
+.type{
+  position: absolute;
+  left:65px;
+  top:0;
+  height:70px;
+  width: 140px;
+}
+
+.button{
+  background-color: #F5F7FF;
+  color:#1A1178;
+  position: absolute;
+  right:10px;
+  top:35px;
+  border:none;
+  text-decoration: underline;
+}
+
+.button:hover{
+  color:#7280A7;
+}
+.payment{
+height:60px;
+position:relative;
+}
+
+.proceed{
+  position: absolute;
+  height: 30px;
+  width: 180px;
+  background-color: #1A1178;
+  color: white;
+  border: none;
+  top:0;
+  left:70px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.proceed:hover{
+  background-color: #E0E8FF;
+}
+.cancel{
+  position: absolute;
+  left: 110px;
+  bottom:0;
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  color:#7280A7;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cancel:hover{
+  background-color: #1F2F56;
+}
+.attribution{
+  font-size: 8px;
+  position:absolute;
+  bottom: 10px;
+  right:60px;
+  left:60px;
+}
